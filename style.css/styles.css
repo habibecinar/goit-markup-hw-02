@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#link {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+}
+
+#web {
+  color: #4d5ae5;
+}
+
+#studio {
+  color: #2e2f42;
+}
+#web,
+#studio {
+  margin-right: 0; /* sağdaki boşluğu kaldır */
+}
+header {
+  nav li {
+    width: 1440px;
+    height: 72px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #e7e9fc;
+  }
+}
+.address {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 153px;
+  height: 24px;
+  top: 24px;
+  left: 940px;
+  gap: 0px;
+  opacity: 0px;
+}
+nav ul li {
+  width: Hug (261px) px;
+  height: Hug (24px) px;
+  top: 24px;
+  left: 347px;
+  gap: 40px;
+  opacity: 0px;
+  color: #2e2f42;
+}
+
+nav a {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: Hug (115px) px;
+  height: Fixed (24px) px;
+  top: 24px;
+  left: 156px;
+  gap: 0px;
+  opacity: 0px;
+  color: #4d5ae5;
+}
+
+#hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 25px;
+}
+.blueButton {
+  width: Hug (169px) px;
+  height: Hug (56px) px;
+  top: 428px;
+  left: 636px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+#services {
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
