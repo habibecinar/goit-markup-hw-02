@@ -3,14 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-#link {
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+#logo {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
   text-decoration: none;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 
 #web {
@@ -23,6 +30,7 @@
 #web,
 #studio {
   margin-right: 0; /* sağdaki boşluğu kaldır */
+  text-transform: uppercase;
 }
 header {
   nav li {
@@ -78,7 +86,7 @@ nav a {
   color: #4d5ae5;
 }
 
-#hero {
+section h1 {
   background-color: #2e2f42;
   color: #ffffff;
   font-family: Roboto;
@@ -89,7 +97,6 @@ nav a {
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  margin-top: 25px;
 }
 .blueButton {
   width: Hug (169px) px;
@@ -104,7 +111,25 @@ nav a {
   cursor: pointer;
 }
 
-#services {
+#services p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+#services h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
 
 footer {
