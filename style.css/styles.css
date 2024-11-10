@@ -179,6 +179,36 @@ section h1 {
 #Portfolio img {
   width: 360;
 }
+#Portfolio h3 {
+  font-family: Roboto;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 172px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+#Portfolio p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 51px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  color: #434455;
+}
 
 footer {
   background-color: #2e2f42;
