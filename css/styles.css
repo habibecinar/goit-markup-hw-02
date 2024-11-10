@@ -5,64 +5,12 @@ body {
   background-color: #ffffff;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 h1,
 h2,
 h3 {
   font-family: "Roboto", sans-serif;
-}
-
-/* Özel sınıflar */
-.position-absolute {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.position-relative {
-  position: relative;
-}
-
-.full-width {
-  width: 100%;
-}
-
-.full-height {
-  height: 100%;
-}
-
-.box-sizing-border-box {
-  box-sizing: border-box;
-}
-
-.flex-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.border-radius {
-  border-radius: 8px;
-}
-
-.order-last {
-  order: 1;
-}
-
-.border-bottom {
-  border-bottom: 2px solid #2e2f42;
-}
-
-/* Header Stili */
-header {
-  background-color: #2e2f42;
-  padding: 20px;
 }
 
 .logo-link {
@@ -76,6 +24,10 @@ header {
   text-decoration: none;
 }
 
+.footer-logo-text {
+  color: #2e2f42;
+}
+
 .main-nav {
   background-color: #ffffff;
   padding: 10px 0;
@@ -85,6 +37,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
   padding: 5px 10px;
@@ -92,6 +45,22 @@ header {
 
 .nav-link:hover,
 .nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
@@ -103,7 +72,9 @@ header {
 
 .hero-heading {
   font-size: 56px;
+  line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -111,12 +82,13 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-  border-radius: 8px;
 }
 
 .blue-button:hover,
@@ -131,7 +103,10 @@ header {
 
 .section-heading {
   font-size: 36px;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -142,11 +117,15 @@ header {
 .service-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .service-description {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -160,18 +139,26 @@ header {
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .team-description,
 .portfolio-description {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
 /* Portfolio Section */
 .portfolio-section {
   padding: 40px;
+}
+
+.portfolio-section img {
+  width: 360px;
 }
 
 /* Footer */
@@ -181,5 +168,7 @@ header {
 }
 
 .footer-description {
+  line-height: 1.5;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
