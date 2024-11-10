@@ -158,6 +158,27 @@ section h1 {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+#Portfolio h2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 218px;
+  height: 40px;
+  top: 1868px;
+  left: 611px;
+  gap: 0px;
+  opacity: 0px;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+#Portfolio img {
+  width: 360;
+}
 
 footer {
   background-color: #2e2f42;
