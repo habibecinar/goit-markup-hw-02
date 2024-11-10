@@ -13,13 +13,7 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
-/* Header Stili */
-header {
-  background-color: #2e2f42;
-  padding: 20px;
-}
-
-header a {
+.logo-text {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -30,17 +24,17 @@ header a {
   text-decoration: none;
 }
 
-header a span {
+.studio-text {
   color: #2e2f42;
 }
 
-/* Navigation (Menü) */
-nav {
-  background-color: #ffffff;
-  padding: 10px 0;
+/* Header Stili */
+header {
+  background-color: #2e2f42;
+  padding: 20px;
 }
 
-nav a {
+.menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -50,18 +44,34 @@ nav a {
   padding: 5px 10px;
 }
 
-nav a:hover,
-nav a:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
-/* Section 1 */
-section#section1 {
+.contact-info {
+  font-style: normal;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+/* Hero Section */
+.hero-section {
   background-color: #2e2f42;
   padding: 40px;
 }
 
-section#section1 h1 {
+.hero-heading {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -69,25 +79,30 @@ section#section1 h1 {
   color: #ffffff;
 }
 
-/* Section Genel Ayarlar */
-section {
+.blue-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
 }
 
-/* Section 2 */
-section:nth-of-type(2) {
+.blue-button:hover,
+.blue-button:focus {
+  background-color: #404bbf;
+}
+
+/* Services Section */
+.service-section {
   padding: 40px;
 }
 
-section:nth-of-type(2) h2 {
+.service-section h2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -96,16 +111,16 @@ section:nth-of-type(2) h2 {
   color: #2e2f42;
 }
 
-section:nth-of-type(2) ul {
+.service-section ul {
   list-style: none;
   padding: 0;
 }
 
-section:nth-of-type(2) li {
+.service-section li {
   margin-bottom: 20px;
 }
 
-section:nth-of-type(2) h3 {
+.service-section h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -113,20 +128,20 @@ section:nth-of-type(2) h3 {
   color: #2e2f42;
 }
 
-section:nth-of-type(2) p {
+.service-section p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-/* Section 3 */
-section:nth-of-type(3) {
+/* Team Section */
+.team-section {
   background-color: #f4f4fd;
   padding: 40px;
 }
 
-section:nth-of-type(3) h2 {
+.team-section h2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -135,16 +150,16 @@ section:nth-of-type(3) h2 {
   color: #2e2f42;
 }
 
-section:nth-of-type(3) ul {
+.team-section ul {
   list-style: none;
   padding: 0;
 }
 
-section:nth-of-type(3) li {
+.team-section li {
   margin-bottom: 20px;
 }
 
-section:nth-of-type(3) h3 {
+.team-section h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -152,19 +167,19 @@ section:nth-of-type(3) h3 {
   color: #2e2f42;
 }
 
-section:nth-of-type(3) p {
+.team-section p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-/* Section 4 */
-section:nth-of-type(4) {
+/* Portfolio Section */
+.portfolio-section {
   padding: 40px;
 }
 
-section:nth-of-type(4) h2 {
+.portfolio-section h2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -173,20 +188,20 @@ section:nth-of-type(4) h2 {
   color: #2e2f42;
 }
 
-section:nth-of-type(4) ul {
+.portfolio-section ul {
   list-style: none;
   padding: 0;
 }
 
-section:nth-of-type(4) li {
+.portfolio-section li {
   margin-bottom: 20px;
 }
 
-section:nth-of-type(4) img {
+.portfolio-section img {
   width: 360px;
 }
 
-section:nth-of-type(4) h3 {
+.portfolio-section h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -194,7 +209,7 @@ section:nth-of-type(4) h3 {
   color: #2e2f42;
 }
 
-section:nth-of-type(4) p {
+.portfolio-section p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
