@@ -14,7 +14,7 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
-/* Özel sınıflar - gerekli kurallar */
+/* Özel sınıflar */
 .position-absolute {
   position: absolute;
   top: 0;
@@ -39,7 +39,6 @@ h3 {
 
 .flex-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 10px;
 }
@@ -48,16 +47,8 @@ h3 {
   flex-direction: column;
 }
 
-.flex-grow {
-  flex-grow: 1;
-}
-
 .border-radius {
   border-radius: 8px;
-}
-
-.box-shadow {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .order-last {
@@ -66,15 +57,6 @@ h3 {
 
 .border-bottom {
   border-bottom: 2px solid #2e2f42;
-}
-
-/* Özel genişlik ve yükseklik sınıfları */
-.width-360 {
-  width: 360px;
-}
-
-.height-264 {
-  height: 264px;
 }
 
 /* Header Stili */
@@ -92,13 +74,6 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  background-color: #ffffff;
-}
-span {
-  color: #2e2f42;
-}
-.footer-logo-text {
-  color: #2e2f42;
 }
 
 .main-nav {
@@ -110,7 +85,6 @@ span {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
   padding: 5px 10px;
@@ -118,22 +92,6 @@ span {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
-}
-
-.contact-info {
-  font-style: normal;
-}
-
-.contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
   color: #404bbf;
 }
 
@@ -145,9 +103,7 @@ span {
 
 .hero-heading {
   font-size: 56px;
-  line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -155,8 +111,6 @@ span {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   border: none;
@@ -177,10 +131,7 @@ span {
 
 .section-heading {
   font-size: 36px;
-  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -191,15 +142,11 @@ span {
 .service-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .service-description {
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -213,26 +160,18 @@ span {
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .team-description,
 .portfolio-description {
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
 /* Portfolio Section */
 .portfolio-section {
   padding: 40px;
-}
-
-.portfolio-section img {
-  width: 360px;
 }
 
 /* Footer */
@@ -242,7 +181,5 @@ span {
 }
 
 .footer-description {
-  line-height: 1.5;
   color: #f4f4fd;
-  letter-spacing: 0.02em;
 }
