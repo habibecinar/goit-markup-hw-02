@@ -92,8 +92,11 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  background-color: #ffffff;
 }
-
+span {
+  color: #2e2f42;
+}
 .footer-logo-text {
   color: #2e2f42;
 }
