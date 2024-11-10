@@ -1,216 +1,244 @@
-* {
+/* Temel stil ayarları */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: "Roboto", sans-serif; /* C5, C7, C6 */
+  background-color: #f4f4f4; /* C8 - Ana arka plan rengi */
+  color: #333; /* C8 - Metin rengi */
+  font-size: 16px; /* C9 - Varsayılan font büyüklüğü */
+  line-height: 1.5; /* C10 - Satır yüksekliği */
+  font-weight: 400; /* C12 - Varsayılan font ağırlığı */
 }
 
-#logo {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  text-align: left;
+/* Bağlantılar ve butonlar için etkileşimli durumlar */
+a,
+button {
+  color: inherit; /* Varsayılan renk miras alınır */
   text-decoration: none;
-  line-height: 1.17;
-  text-transform: uppercase;
+  cursor: pointer; /* C13 */
+  transition: color 0.3s ease; /* Etkileşimli renk geçişi */
 }
 
-#web {
-  color: #4d5ae5;
+/* Başlık metni üzerine gelindiğinde ve odaklanıldığında renk değişimi */
+#logo span {
+  transition: color 0.3s ease;
 }
 
-#studio {
-  color: #2e2f42;
+#logo span:hover,
+#logo span:focus {
+  color: #0077cc; /* C4 - Renk değişimi üzerine gelindiğinde */
 }
-#web,
-#studio {
-  margin-right: 0; /* sağdaki boşluğu kaldır */
-  text-transform: uppercase;
+
+/* Etkileşimli öğe (butonlar) üzerinde renk değişimi */
+button:hover,
+button:focus {
+  background-color: #0077cc; /* C3 - Renk değişimi */
+  color: white;
 }
+
+a:hover,
+a:focus {
+  color: #0077cc; /* C3 - Bağlantı renk değişimi */
+}
+
+/* Header ve Nav */
 header {
-  nav li {
-    width: 1440px;
-    height: 72px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    border-bottom: 1px solid #e7e9fc;
-  }
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-.address {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  margin-bottom: 20px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 153px;
-  height: 24px;
-  top: 24px;
-  left: 940px;
-  gap: 0px;
-  opacity: 0px;
+
+nav ul {
+  display: flex;
+  gap: 20px;
 }
+
 nav ul li {
-  width: Hug (261px) px;
-  height: Hug (24px) px;
-  top: 24px;
-  left: 347px;
-  gap: 40px;
-  opacity: 0px;
-  color: #2e2f42;
+  list-style: none;
 }
 
 nav a {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: Hug (115px) px;
-  height: Fixed (24px) px;
-  top: 24px;
-  left: 156px;
-  gap: 0px;
-  opacity: 0px;
-  color: #4d5ae5;
-}
-#hero {
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  gap: 0px;
-  opacity: 0px;
-  background-color: #2e2f42;
-}
-section h1 {
-  background-color: #2e2f42;
-  color: #ffffff;
-  font-family: Roboto;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-.blueButton {
-  width: Hug (169px) px;
-  height: Hug (56px) px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
   font-weight: 500;
-  opacity: 0px;
-  background-color: #4d5ae5;
-  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+  transition: color 0.3s ease; /* C3 */
+}
+
+/* Hero Section */
+#hero {
+  background-color: #0077cc;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.blueButton {
+  padding: 10px 20px;
+  background-color: #005fa3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.blueButton:hover,
+.blueButton:focus {
+  background-color: #00477a; /* C3 */
+}
+
+/* Services Section */
+#services {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+#services ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#services li {
+  text-align: center;
+}
+
+#services h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 #services p {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-#services h3 {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  color: #555;
 }
 
-#team h2 {
-  color: #2e2f42;
-  width: 162px;
-  height: 40px;
-  top: 1136px;
-  left: 639px;
-  gap: 0px;
-  opacity: 0px;
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+/* Team Section */
+#team {
+  padding: 60px 20px;
+}
+
+#team ul {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#team li {
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
-#Portfolio h2 {
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 218px;
-  height: 40px;
-  top: 1868px;
-  left: 611px;
-  gap: 0px;
-  opacity: 0px;
-  color: #2e2f42;
-  text-transform: capitalize;
+
+#team img {
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
-#Portfolio img {
-  width: 360;
-}
-#Portfolio h3 {
-  font-family: Roboto;
-  color: #2e2f42;
+
+#team h3 {
   font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 172px;
-  height: 24px;
-  gap: 0px;
-  opacity: 0px;
+  font-weight: 700;
+  color: #333;
 }
-#Portfolio p {
-  font-family: Roboto;
-  font-size: 16px;
+
+#team p {
+  font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 51px;
-  height: 24px;
-  gap: 0px;
-  opacity: 0px;
-  color: #434455;
+  color: #777;
 }
 
+/* Portfolio Section */
+#portfolio {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+#portfolio ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#portfolio li {
+  width: calc(33.333% - 20px);
+  margin-bottom: 20px;
+}
+
+#portfolio img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#portfolio h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+#portfolio p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+}
+
+/* Footer */
 footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
+  padding: 40px 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ccc;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #0077cc; /* C3 */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #services ul,
+  #team ul,
+  #portfolio ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portfolio li {
+    width: 100%;
+  }
 }
