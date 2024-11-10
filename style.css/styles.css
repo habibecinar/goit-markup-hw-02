@@ -13,9 +13,6 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
-/* Google Fontlar */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Raleway:wght@700&display=swap");
-
 /* Header Stili */
 header {
   background-color: #2e2f42;
@@ -59,12 +56,12 @@ nav a:focus {
 }
 
 /* Section 1 */
-section:first-of-type {
+section#section1 {
   background-color: #2e2f42;
   padding: 40px;
 }
 
-section:first-of-type h1 {
+section#section1 h1 {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -72,8 +69,8 @@ section:first-of-type h1 {
   color: #ffffff;
 }
 
-section:first-of-type button {
-  background-color: #4d5ae5;
+/* Section Genel Ayarlar */
+section {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -83,11 +80,6 @@ section:first-of-type button {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
-}
-
-section:first-of-type button:hover,
-section:first-of-type button:focus {
-  background-color: #404bbf;
 }
 
 /* Section 2 */
