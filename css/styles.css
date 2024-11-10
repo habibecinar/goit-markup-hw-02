@@ -13,7 +13,7 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
-.logo-text {
+.logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -24,17 +24,16 @@ h3 {
   text-decoration: none;
 }
 
-.studio-text {
+.footer-logo-text {
   color: #2e2f42;
 }
 
-/* Header Stili */
-header {
-  background-color: #2e2f42;
-  padding: 20px;
+.main-nav {
+  background-color: #ffffff;
+  padding: 10px 0;
 }
 
-.menu-link {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -44,8 +43,8 @@ header {
   padding: 5px 10px;
 }
 
-.menu-link:hover,
-.menu-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -98,11 +97,11 @@ header {
 }
 
 /* Services Section */
-.service-section {
+.services-section {
   padding: 40px;
 }
 
-.service-section h2 {
+.section-heading {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -111,16 +110,11 @@ header {
   color: #2e2f42;
 }
 
-.service-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.service-section li {
+.service-item {
   margin-bottom: 20px;
 }
 
-.service-section h3 {
+.service-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -128,7 +122,7 @@ header {
   color: #2e2f42;
 }
 
-.service-section p {
+.service-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -141,25 +135,8 @@ header {
   padding: 40px;
 }
 
-.team-section h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.team-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.team-section li {
-  margin-bottom: 20px;
-}
-
-.team-section h3 {
+.team-title,
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -167,7 +144,8 @@ header {
   color: #2e2f42;
 }
 
-.team-section p {
+.team-description,
+.portfolio-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -179,61 +157,17 @@ header {
   padding: 40px;
 }
 
-.portfolio-section h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.portfolio-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.portfolio-section li {
-  margin-bottom: 20px;
-}
-
 .portfolio-section img {
   width: 360px;
 }
 
-.portfolio-section h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.portfolio-section p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
 /* Footer */
-footer {
+.site-footer {
   background-color: #2e2f42;
   padding: 20px;
 }
 
-footer a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-footer p {
+.footer-description {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
