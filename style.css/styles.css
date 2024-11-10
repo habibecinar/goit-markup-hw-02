@@ -1,259 +1,233 @@
-/* Temel stil ayarları */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Genel ayarlar */
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455; /* Metnin baskın rengi */
+  color: #434455;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
-/* Logo stil */
-#logo {
-  font-family: Raleway;
-  font-size: 18px;
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Google Fontlar */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Raleway:wght@700&display=swap");
+
+/* Header Stili */
+header {
+  background-color: #2e2f42;
+  padding: 20px;
+}
+
+header a {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-decoration: none;
+  font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-#web {
   color: #4d5ae5;
+  text-decoration: none;
 }
 
-#studio {
+header a span {
   color: #2e2f42;
 }
 
-#web,
-#studio {
-  margin-right: 0; /* sağdaki boşluğu kaldır */
-  text-transform: uppercase;
-}
-
-/* Header ve Navigation */
-header {
-  position: relative;
-}
-
-header nav li {
-  width: 1440px;
-  height: 72px;
-  gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0;
-  border-bottom: 1px solid #e7e9fc;
-}
-
-nav ul {
-  display: flex;
-  justify-content: flex-start;
-}
-
-nav ul li {
-  margin-right: 40px;
+/* Navigation (Menü) */
+nav {
+  background-color: #ffffff;
+  padding: 10px 0;
 }
 
 nav a {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-decoration: none;
-  color: #4d5ae5;
-  transition: color 0.3s ease; /* Etkileşimli öğeler için renk değişimi */
+  padding: 5px 10px;
 }
 
 nav a:hover,
 nav a:focus {
-  color: #2e2f42; /* Etkileşimli durum: renk değişimi */
+  color: #404bbf;
 }
 
-/* Hero Bölümü */
-#hero {
-  width: 100%;
-  height: 600px;
+/* Section 1 */
+section:first-of-type {
   background-color: #2e2f42;
-  opacity: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 40px;
 }
 
-#hero h1 {
-  font-family: Roboto;
+section:first-of-type h1 {
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  text-align: center;
 }
 
-/* Blue Button */
-.blueButton {
-  width: 169px;
-  height: 56px;
-  padding: 16px 32px;
-  border-radius: 4px;
+section:first-of-type button {
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  opacity: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
   cursor: pointer;
-  color: white;
-  text-align: center;
-  display: inline-block;
-  text-decoration: none;
-  transition: background-color 0.3s ease; /* Etkileşimli öğe */
 }
 
-.blueButton:hover,
-.blueButton:focus {
-  background-color: #3c47bb;
+section:first-of-type button:hover,
+section:first-of-type button:focus {
+  background-color: #404bbf;
 }
 
-/* Services Bölümü */
-#services {
-  padding: 60px 20px;
+/* Section 2 */
+section:nth-of-type(2) {
+  padding: 40px;
 }
 
-#services h3 {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-align: left;
-}
-
-#services p {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-align: left;
-}
-
-/* Team Bölümü */
-#team h2 {
-  font-family: Roboto;
+section:nth-of-type(2) h2 {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
   text-align: center;
-  opacity: 0;
-}
-
-/* Portfolio Bölümü */
-#Portfolio {
-  padding: 60px 20px;
-}
-
-#Portfolio h2 {
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
   text-transform: capitalize;
-  opacity: 0;
+  color: #2e2f42;
 }
 
-#Portfolio img {
-  width: 360px;
-  height: auto;
-  border-radius: 8px;
+section:nth-of-type(2) ul {
+  list-style: none;
+  padding: 0;
 }
 
-#Portfolio h3 {
-  font-family: Roboto;
-  font-size: 20px;
+section:nth-of-type(2) li {
+  margin-bottom: 20px;
+}
+
+section:nth-of-type(2) h3 {
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  text-align: left;
-  opacity: 0;
-}
-#Portfolio h2 {
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
 }
 
-#Portfolio p {
-  font-family: Roboto;
+section:nth-of-type(2) p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: left;
-  opacity: 0;
+}
+
+/* Section 3 */
+section:nth-of-type(3) {
+  background-color: #f4f4fd;
+  padding: 40px;
+}
+
+section:nth-of-type(3) h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+section:nth-of-type(3) ul {
+  list-style: none;
+  padding: 0;
+}
+
+section:nth-of-type(3) li {
+  margin-bottom: 20px;
+}
+
+section:nth-of-type(3) h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+section:nth-of-type(3) p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Section 4 */
+section:nth-of-type(4) {
+  padding: 40px;
+}
+
+section:nth-of-type(4) h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+section:nth-of-type(4) ul {
+  list-style: none;
+  padding: 0;
+}
+
+section:nth-of-type(4) li {
+  margin-bottom: 20px;
+}
+
+section:nth-of-type(4) img {
+  width: 360px;
+}
+
+section:nth-of-type(4) h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+section:nth-of-type(4) p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Footer */
 footer {
   background-color: #2e2f42;
-  color: #f4f4fd;
   padding: 20px;
-  text-align: center;
 }
 
-/* Etkileşimli öğeler için genel kurallar */
-a:focus,
-a:hover,
-button:focus,
-button:hover {
-  outline: none;
-  color: #2e2f42;
-  background-color: #f4f4fd;
+footer a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
 }
 
-button {
-  cursor: pointer;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #services ul,
-  #team ul,
-  #Portfolio ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #Portfolio li {
-    width: 100%;
-  }
-
-  img {
-    width: 100%;
-  }
+footer p {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
