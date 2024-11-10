@@ -13,8 +13,9 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+/* Logo */
 .logo-link {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -28,6 +29,7 @@ h3 {
   color: #2e2f42;
 }
 
+/* Navigation */
 .main-nav {
   background-color: #ffffff;
   padding: 10px 0;
@@ -44,10 +46,13 @@ h3 {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
+/* Contact Info */
 .contact-info {
   font-style: normal;
 }
@@ -59,21 +64,16 @@ h3 {
   color: #434455;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
-}
-
 /* Hero Section */
 .hero-section {
   background-color: #2e2f42;
   padding: 40px;
+  text-align: center;
 }
 
 .hero-heading {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -129,10 +129,14 @@ h3 {
   color: #434455;
 }
 
-/* Team Section */
+/* Team and Portfolio Sections */
+.team-section,
+.portfolio-section {
+  padding: 40px;
+}
+
 .team-section {
   background-color: #f4f4fd;
-  padding: 40px;
 }
 
 .team-title,
@@ -152,11 +156,7 @@ h3 {
   color: #434455;
 }
 
-/* Portfolio Section */
-.portfolio-section {
-  padding: 40px;
-}
-
+/* Portfolio Images */
 .portfolio-section img {
   width: 360px;
 }
@@ -165,13 +165,11 @@ h3 {
 .site-footer {
   background-color: #2e2f42;
   padding: 20px;
+  text-align: center;
 }
 
 .footer-description {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-span {
-  color: #2e2f42;
 }
