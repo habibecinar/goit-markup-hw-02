@@ -14,6 +14,75 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+/* Özel sınıflar - gerekli kurallar */
+.position-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.box-sizing-border-box {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.border-radius {
+  border-radius: 8px;
+}
+
+.box-shadow {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-last {
+  order: 1;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #2e2f42;
+}
+
+/* Özel genişlik ve yükseklik sınıfları */
+.width-360 {
+  width: 360px;
+}
+
+.height-264 {
+  height: 264px;
+}
+
+/* Header Stili */
+header {
+  background-color: #2e2f42;
+  padding: 20px;
+}
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -114,17 +183,6 @@ h3 {
 
 .service-item {
   margin-bottom: 20px;
-}
-
-.service-item.background-white {
-  background-color: #ffffff;
-}
-
-.service-link {
-  color: #2e2f42;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 .service-title {
