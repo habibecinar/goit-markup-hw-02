@@ -1,14 +1,19 @@
-* {
+/* Temel stil ayarları */
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
+  font-family: "Roboto", sans-serif;
+  color: #434455; /* Metnin baskın rengi */
   background-color: #ffffff;
 }
 
+/* Logo stil */
 #logo {
   font-family: Raleway;
   font-size: 18px;
@@ -27,46 +32,34 @@ body {
 #studio {
   color: #2e2f42;
 }
+
 #web,
 #studio {
   margin-right: 0; /* sağdaki boşluğu kaldır */
   text-transform: uppercase;
 }
+
+/* Header ve Navigation */
 header {
-  nav li {
-    width: 1440px;
-    height: 72px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    border-bottom: 1px solid #e7e9fc;
-  }
+  position: relative;
 }
-.address {
-  font-family: Roboto;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  margin-bottom: 20px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 153px;
-  height: 24px;
-  top: 24px;
-  left: 940px;
+
+header nav li {
+  width: 1440px;
+  height: 72px;
   gap: 0px;
-  opacity: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0;
+  border-bottom: 1px solid #e7e9fc;
 }
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
 nav ul li {
-  width: Hug (261px) px;
-  height: Hug (24px) px;
-  top: 24px;
-  left: 347px;
-  gap: 40px;
-  opacity: 0px;
-  color: #2e2f42;
+  margin-right: 40px;
 }
 
 nav a {
@@ -76,141 +69,182 @@ nav a {
   line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: Hug (115px) px;
-  height: Fixed (24px) px;
-  top: 24px;
-  left: 156px;
-  gap: 0px;
-  opacity: 0px;
+  text-decoration: none;
   color: #4d5ae5;
+  transition: color 0.3s ease; /* Etkileşimli öğeler için renk değişimi */
 }
+
+nav a:hover,
+nav a:focus {
+  color: #2e2f42; /* Etkileşimli durum: renk değişimi */
+}
+
+/* Hero Bölümü */
 #hero {
-  width: 1440px;
+  width: 100%;
   height: 600px;
-  top: 72px;
-  gap: 0px;
-  opacity: 0px;
   background-color: #2e2f42;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-section h1 {
-  background-color: #2e2f42;
-  color: #ffffff;
+
+#hero h1 {
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  color: #ffffff;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
+
+/* Blue Button */
 .blueButton {
-  width: Hug (169px) px;
-  height: Hug (56px) px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
-  font-weight: 500;
-  opacity: 0px;
+  width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  border-radius: 4px;
   background-color: #4d5ae5;
+  font-weight: 500;
+  opacity: 0;
   cursor: pointer;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Etkileşimli öğe */
+}
+
+.blueButton:hover,
+.blueButton:focus {
+  background-color: #3c47bb;
+}
+
+/* Services Bölümü */
+#services {
+  padding: 60px 20px;
+}
+
+#services h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: left;
 }
 
 #services p {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-#services h3 {
-  font-family: Roboto;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
+/* Team Bölümü */
 #team h2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
-  width: 162px;
-  height: 40px;
-  top: 1136px;
-  left: 639px;
-  gap: 0px;
-  opacity: 0px;
+  text-align: center;
+  opacity: 0;
+}
+
+/* Portfolio Bölümü */
+#Portfolio {
+  padding: 60px 20px;
+}
+
+#Portfolio h2 {
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-}
-#Portfolio h2 {
-  font-family: Roboto;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 218px;
-  height: 40px;
-  top: 1868px;
-  left: 611px;
-  gap: 0px;
-  opacity: 0px;
   color: #2e2f42;
   text-transform: capitalize;
+  opacity: 0;
 }
+
 #Portfolio img {
-  width: 360;
+  width: 360px;
+  height: auto;
+  border-radius: 8px;
 }
+
 #Portfolio h3 {
   font-family: Roboto;
-  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
   text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 172px;
-  height: 24px;
-  gap: 0px;
-  opacity: 0px;
+  opacity: 0;
 }
+
 #Portfolio p {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 51px;
-  height: 24px;
-  gap: 0px;
-  opacity: 0px;
   color: #434455;
+  text-align: left;
+  opacity: 0;
 }
 
+/* Footer */
 footer {
   background-color: #2e2f42;
   color: #f4f4fd;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Etkileşimli öğeler için genel kurallar */
+a:focus,
+a:hover,
+button:focus,
+button:hover {
+  outline: none;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #services ul,
+  #team ul,
+  #Portfolio ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Portfolio li {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
 }
