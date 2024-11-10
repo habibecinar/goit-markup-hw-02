@@ -16,15 +16,13 @@ h3 {
 /* Logo */
 .logo-link {
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
-  color: #404bbf;
-  color: #404bbf;
 }
 
 .footer-logo-text {
@@ -64,114 +62,4 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-/* Hero Section */
-.hero-section {
-  background-color: #2e2f42;
-  padding: 40px;
-  text-align: center;
-}
-
-.hero-heading {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
-.blue-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.blue-button:hover,
-.blue-button:focus {
-  background-color: #404bbf;
-}
-
-/* Services Section */
-.services-section {
-  padding: 40px;
-}
-
-.section-heading {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-.service-item {
-  margin-bottom: 20px;
-}
-
-.service-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.service-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Team and Portfolio Sections */
-.team-section,
-.portfolio-section {
-  padding: 40px;
-}
-
-.team-section {
-  background-color: #f4f4fd;
-}
-
-.team-title,
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.team-description,
-.portfolio-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Portfolio Images */
-.portfolio-section img {
-  width: 360px;
-}
-
-/* Footer */
-.site-footer {
-  background-color: #2e2f42;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer-description {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
 }
