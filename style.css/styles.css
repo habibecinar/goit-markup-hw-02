@@ -192,6 +192,15 @@ nav a:focus {
   text-align: left;
   opacity: 0;
 }
+#Portfolio h2 {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 
 #Portfolio p {
   font-family: Roboto;
