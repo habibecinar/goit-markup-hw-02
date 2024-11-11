@@ -25,10 +25,11 @@ h3 {
 /* Logo */
 .logo-two {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -48,9 +49,21 @@ h3 {
   color: #4d5ae5;
 }
 .footer-logo-text-studio {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #2e2f42;
 }
 .footer-logo-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
   opacity: 1;
