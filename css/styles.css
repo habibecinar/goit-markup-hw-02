@@ -1,4 +1,3 @@
-/* Genel Ayarlar */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -13,211 +12,76 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
-/* Logo Ayarları */
+/* Logo */
 #logo-one {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
-
 .logo-two {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
-  opacity: 1;
-}
-
-.logo-link-footer {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.footer-logo-text-studio {
   color: #2e2f42;
 }
 
-.footer-logo-text {
-  color: #4d5ae5;
-  display: inline-block;
-  opacity: 1;
-}
-
-/* Navigasyon */
+/* Navbar */
 .main-nav {
-  background-color: #ffffff;
-  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 .nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
-  padding: 5px 10px;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.contact-link:hover,
-.contact-link:focus {
+.nav-link:hover {
   color: #404bbf;
 }
 
-/* İletişim Bilgileri */
-.contact-info {
-  font-style: normal;
-}
-
-.contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Hero Bölümü */
+/* Hero Section */
 .hero-section {
-  background-color: #2e2f42;
-  padding: 40px;
   text-align: center;
+  padding: 50px;
+  background-color: #2e2f42;
 }
 
 .hero-heading {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
+/* Button */
 .blue-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #fff;
   background-color: #4d5ae5;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
 }
 
-.blue-button:hover,
-.blue-button:focus {
-  background-color: #404bbf;
-}
-
-/* Hizmetler Bölümü */
+/* Services Section */
 .services-section {
   padding: 40px;
 }
 
-.section-heading {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+/* Team Section */
+.team-section {
+  padding: 20px;
+  background: #f4f4fd;
 }
 
-.service-item {
-  margin-bottom: 20px;
-}
-
-.service-title {
-  font-weight: 500;
+.team-title {
   font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-.service-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Takım ve Portföy Bölümleri */
-.team-section,
+/* Portfolio Section */
 .portfolio-section {
   padding: 40px;
 }
 
-.team-section {
-  background-color: #f4f4fd;
-}
-
-.team-title,
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.team-description,
-.portfolio-description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Portföy Görselleri */
-.portfolio-section img {
-  width: 360px;
-  height: auto;
-}
-
-/* Footer Bölümü */
 .site-footer {
-  background-color: #2e2f42;
+  color: #f4f4fd;
   padding: 20px;
   text-align: center;
-}
-
-.footer-description {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-}
-
-.logo-link a {
-  color: #2e2f42;
-  text-decoration: none;
-}
-
-#site-footer img {
-  width: 115px;
-  height: 24px;
-}
-
-.logo-link a:hover {
-  color: #404bbf;
-}
-
-/* Section 3 */
-.section-3 {
-  background-color: #ffffff;
+  background: #2e2f42;
 }
