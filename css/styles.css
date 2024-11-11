@@ -11,7 +11,13 @@ h2,
 h3 {
   font-family: "Roboto", sans-serif;
 }
-
+body span {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.17;
+}
 /* Logo */
 .logo-link {
   font-family: Raleway;
@@ -28,16 +34,12 @@ h3 {
   opacity: 0px;
 }
 
-.footer-logo-web {
+.footer-logo-text {
   color: #4d5ae5;
   display: inline-block;
   opacity: 1;
 }
-.footer-logo-studio {
-  color: #2e2f42;
-  display: inline-block;
-  opacity: 1;
-}
+
 /* Navigation */
 .main-nav {
   background-color: #ffffff;
