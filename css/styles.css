@@ -1,10 +1,10 @@
-/* body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
-} */
+}
 
 h1,
 h2,
@@ -15,10 +15,10 @@ h3 {
 /* Logo */
 .logo-link {
   font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -182,8 +182,8 @@ h3 {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-#Logo a {
-  font-family: "Raleway";
+.logo-link a {
+  color: #2e2f42;
 }
 #site-footer img {
   color: #f4f4fd;
@@ -191,4 +191,7 @@ h3 {
   height: 24px;
   top: 3088px;
   left: 156px;
+}
+.logo-link a:hover {
+  color: #404bbf;
 }
