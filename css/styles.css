@@ -22,7 +22,7 @@ h3 {
   color: #4d5ae5;
 }
 /* Logo */
-.logo-link {
+.logo-two {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -35,6 +35,18 @@ h3 {
   height: 21px;
   gap: 0px;
   opacity: 0px;
+  color: #2e2f42;
+}
+.logo-one {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 .logo-link-footer {
   font-family: "Raleway", sans-serif;
