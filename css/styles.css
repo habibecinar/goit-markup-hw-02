@@ -1,3 +1,4 @@
+/* Genel Ayarlar */
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -11,8 +12,10 @@ h2,
 h3 {
   font-family: "Roboto", sans-serif;
 }
+
+/* Logo Ayarları */
 #logo-one {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -22,7 +25,7 @@ h3 {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-/* Logo */
+
 .logo-two {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -30,15 +33,10 @@ h3 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 71px;
-  height: 21px;
-  gap: 0px;
-  opacity: 0px;
   color: #2e2f42;
+  opacity: 1;
 }
+
 .logo-link-footer {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -48,28 +46,18 @@ h3 {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .footer-logo-text-studio {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
+
 .footer-logo-text {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
   opacity: 1;
 }
 
-/* Navigation */
+/* Navigasyon */
 .main-nav {
   background-color: #ffffff;
   padding: 10px 0;
@@ -92,7 +80,7 @@ h3 {
   color: #404bbf;
 }
 
-/* Contact Info */
+/* İletişim Bilgileri */
 .contact-info {
   font-style: normal;
 }
@@ -104,7 +92,7 @@ h3 {
   color: #434455;
 }
 
-/* Hero Section */
+/* Hero Bölümü */
 .hero-section {
   background-color: #2e2f42;
   padding: 40px;
@@ -136,7 +124,7 @@ h3 {
   background-color: #404bbf;
 }
 
-/* Services Section */
+/* Hizmetler Bölümü */
 .services-section {
   padding: 40px;
 }
@@ -169,7 +157,7 @@ h3 {
   color: #434455;
 }
 
-/* Team and Portfolio Sections */
+/* Takım ve Portföy Bölümleri */
 .team-section,
 .portfolio-section {
   padding: 40px;
@@ -196,12 +184,13 @@ h3 {
   color: #434455;
 }
 
-/* Portfolio Images */
+/* Portföy Görselleri */
 .portfolio-section img {
   width: 360px;
+  height: auto;
 }
 
-/* Footer */
+/* Footer Bölümü */
 .site-footer {
   background-color: #2e2f42;
   padding: 20px;
@@ -213,19 +202,22 @@ h3 {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
 .logo-link a {
   color: #2e2f42;
+  text-decoration: none;
 }
+
 #site-footer img {
-  color: #f4f4fd;
   width: 115px;
   height: 24px;
-  top: 3088px;
-  left: 156px;
 }
+
 .logo-link a:hover {
   color: #404bbf;
 }
+
+/* Section 3 */
 .section-3 {
   background-color: #ffffff;
 }
