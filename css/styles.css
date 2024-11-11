@@ -15,19 +15,21 @@ h3 {
 /* Logo */
 .logo-link {
   font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
   color: #404bbf;
   color: #404bbf;
 }
 
 .footer-logo-text {
-  color: #2e2f42;
+  color: #f4f4fd;
+  display: inline-block;
+  opacity: 1;
 }
 
 /* Navigation */
@@ -176,4 +178,12 @@ h3 {
 }
 #Logo a {
   font-family: "Raleway";
+}
+#site-footer span {
+  color: #2e2f42;
+  width: 115px;
+  height: 24px;
+  top: 3088px;
+  left: 156px;
+  gap: 0px;
 }
